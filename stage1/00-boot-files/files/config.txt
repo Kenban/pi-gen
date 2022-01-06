@@ -73,6 +73,15 @@ otg_mode=1
 
 [all]
 
+# GPU configuration for KenbanOS
+gpu_mem_256=96
+gpu_mem_512=128
+gpu_mem_1024=196
+
+# Framebuffer config for KenbanOS
+framebuffer_depth=32
+framebuffer_ignore_alpha=1
+
 [pi4]
 # Run as fast as firmware / board allows
 arm_boost=1
