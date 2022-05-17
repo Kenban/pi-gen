@@ -1,1 +1,1 @@
-git-core libffi-dev libssl-dev python-dev network-manager
+git-core libffi-dev libssl-dev python3-pip python3-setuptools python3-wheel network-manager ansible

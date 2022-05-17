@@ -8,7 +8,6 @@ on_chroot << EOF
   rm -rf /home/pi/kenban
   git clone https://github.com/Kenban/kenban_os.git /home/pi/kenban
   cd /home/pi/kenban
-  git checkout production
 
   pip install -r requirements/requirements.txt
   mkdir -p /etc/ansible
